@@ -42,7 +42,7 @@ function App() {
           path: "brands", element: (
             <ProtectedRoute> <Brands /></ProtectedRoute>
           ),
-        }, 
+        },
         {
           path: "categories", element: (
             <ProtectedRoute> <Categories /></ProtectedRoute>
